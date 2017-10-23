@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "IQKeyboardManager.h"
+#import "Definition.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +19,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    [self.window makeKeyAndVisible];
+    
+    [[UINavigationBar appearance] setTranslucent:NO];
+    
+    //点击背景收起键盘
+    [[IQKeyboardManager sharedManager]setShouldResignOnTouchOutside:YES];
+    //影藏键盘上的自定义工具栏
+    [[IQKeyboardManager sharedManager]setEnableAutoToolbar:NO];    return YES;
 }
 
 
