@@ -47,6 +47,25 @@
 		96480FBA1F9DDC4000AE3151 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 96480FB61F9DDC4000AE3151 /* UIView+YYAdd.m */; };
 		96480FBB1F9DDC4000AE3151 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 96480FB81F9DDC4000AE3151 /* UIAlertView+Blocks.m */; };
 		96480FC31F9DDD9D00AE3151 /* TestPaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96480FC21F9DDD9D00AE3151 /* TestPaperViewController.m */; };
+		96480FC51F9DE02F00AE3151 /* testData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96480FC41F9DE02E00AE3151 /* testData.plist */; };
+		966ABDE61F9EE1E20075D46C /* CourseExamTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABDE51F9EE1E20075D46C /* CourseExamTopicModel.m */; };
+		966ABE101F9F14EB0075D46C /* BaseTestPaperTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE0F1F9F14EB0075D46C /* BaseTestPaperTableView.m */; };
+		966ABE161F9F1E710075D46C /* EsayQuestionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE151F9F1E710075D46C /* EsayQuestionTableView.m */; };
+		966ABE191F9F21860075D46C /* MultiSelectionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE181F9F21860075D46C /* MultiSelectionTableView.m */; };
+		966ABE1D1F9F22C50075D46C /* SingleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE1B1F9F22C50075D46C /* SingleSelectCell.m */; };
+		966ABE1E1F9F22C50075D46C /* SingleSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966ABE1C1F9F22C50075D46C /* SingleSelectCell.xib */; };
+		966ABE211F9F2D680075D46C /* SingleSelectionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE201F9F2D680075D46C /* SingleSelectionTableView.m */; };
+		966ABE3B1F9F3CBA0075D46C /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE251F9F3CBA0075D46C /* MJArgument.m */; };
+		966ABE3C1F9F3CBA0075D46C /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE271F9F3CBA0075D46C /* MJConst.m */; };
+		966ABE3D1F9F3CBA0075D46C /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE2A1F9F3CBA0075D46C /* MJFoundation.m */; };
+		966ABE3E1F9F3CBA0075D46C /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE2C1F9F3CBA0075D46C /* MJIvar.m */; };
+		966ABE3F1F9F3CBA0075D46C /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE2E1F9F3CBA0075D46C /* MJMember.m */; };
+		966ABE401F9F3CBA0075D46C /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE301F9F3CBA0075D46C /* MJMethod.m */; };
+		966ABE411F9F3CBA0075D46C /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE321F9F3CBA0075D46C /* MJType.m */; };
+		966ABE421F9F3CBA0075D46C /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE341F9F3CBA0075D46C /* MJTypeEncoding.m */; };
+		966ABE431F9F3CBA0075D46C /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE361F9F3CBA0075D46C /* NSObject+MJCoding.m */; };
+		966ABE441F9F3CBA0075D46C /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE381F9F3CBA0075D46C /* NSObject+MJKeyValue.m */; };
+		966ABE451F9F3CBA0075D46C /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 966ABE3A1F9F3CBA0075D46C /* NSObject+MJMember.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +170,43 @@
 		96480FC01F9DDCFC00AE3151 /* Definition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definition.h; sourceTree = "<group>"; };
 		96480FC11F9DDD9D00AE3151 /* TestPaperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperViewController.h; sourceTree = "<group>"; };
 		96480FC21F9DDD9D00AE3151 /* TestPaperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperViewController.m; sourceTree = "<group>"; };
+		96480FC41F9DE02E00AE3151 /* testData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = testData.plist; sourceTree = "<group>"; };
+		966ABDE41F9EE1E20075D46C /* CourseExamTopicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseExamTopicModel.h; sourceTree = "<group>"; };
+		966ABDE51F9EE1E20075D46C /* CourseExamTopicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseExamTopicModel.m; sourceTree = "<group>"; };
+		966ABE0E1F9F14EB0075D46C /* BaseTestPaperTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTestPaperTableView.h; sourceTree = "<group>"; };
+		966ABE0F1F9F14EB0075D46C /* BaseTestPaperTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTestPaperTableView.m; sourceTree = "<group>"; };
+		966ABE141F9F1E710075D46C /* EsayQuestionTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EsayQuestionTableView.h; sourceTree = "<group>"; };
+		966ABE151F9F1E710075D46C /* EsayQuestionTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EsayQuestionTableView.m; sourceTree = "<group>"; };
+		966ABE171F9F21860075D46C /* MultiSelectionTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiSelectionTableView.h; sourceTree = "<group>"; };
+		966ABE181F9F21860075D46C /* MultiSelectionTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionTableView.m; sourceTree = "<group>"; };
+		966ABE1A1F9F22C50075D46C /* SingleSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleSelectCell.h; sourceTree = "<group>"; };
+		966ABE1B1F9F22C50075D46C /* SingleSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleSelectCell.m; sourceTree = "<group>"; };
+		966ABE1C1F9F22C50075D46C /* SingleSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleSelectCell.xib; sourceTree = "<group>"; };
+		966ABE1F1F9F2D680075D46C /* SingleSelectionTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleSelectionTableView.h; sourceTree = "<group>"; };
+		966ABE201F9F2D680075D46C /* SingleSelectionTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleSelectionTableView.m; sourceTree = "<group>"; };
+		966ABE241F9F3CBA0075D46C /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		966ABE251F9F3CBA0075D46C /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		966ABE261F9F3CBA0075D46C /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		966ABE271F9F3CBA0075D46C /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		966ABE281F9F3CBA0075D46C /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		966ABE291F9F3CBA0075D46C /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		966ABE2A1F9F3CBA0075D46C /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		966ABE2B1F9F3CBA0075D46C /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		966ABE2C1F9F3CBA0075D46C /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		966ABE2D1F9F3CBA0075D46C /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		966ABE2E1F9F3CBA0075D46C /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		966ABE2F1F9F3CBA0075D46C /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		966ABE301F9F3CBA0075D46C /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		966ABE311F9F3CBA0075D46C /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		966ABE321F9F3CBA0075D46C /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		966ABE331F9F3CBA0075D46C /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		966ABE341F9F3CBA0075D46C /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		966ABE351F9F3CBA0075D46C /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		966ABE361F9F3CBA0075D46C /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		966ABE371F9F3CBA0075D46C /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		966ABE381F9F3CBA0075D46C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		966ABE391F9F3CBA0075D46C /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		966ABE3A1F9F3CBA0075D46C /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +257,7 @@
 		96480F191F9DDB1000AE3151 /* SLLTestPaper(选择判断简答) */ = {
 			isa = PBXGroup;
 			children = (
+				96480FC41F9DE02E00AE3151 /* testData.plist */,
 				96480F511F9DDB7D00AE3151 /* Class */,
 				96480F201F9DDB1000AE3151 /* Main.storyboard */,
 				96480F261F9DDB1100AE3151 /* Assets.xcassets */,
@@ -233,6 +290,9 @@
 		96480F4F1F9DDB7900AE3151 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				96480F521F9DDBBE00AE3151 /* Category */,
+				96480F531F9DDBC000AE3151 /* Lib */,
+				96480FBC1F9DDC9100AE3151 /* Other */,
 				96480FC01F9DDCFC00AE3151 /* Definition.h */,
 				96480F1A1F9DDB1000AE3151 /* AppDelegate.h */,
 				96480F1B1F9DDB1000AE3151 /* AppDelegate.m */,
@@ -255,7 +315,6 @@
 		96480F511F9DDB7D00AE3151 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				96480FBC1F9DDC9100AE3151 /* Other */,
 				96480F501F9DDB7B00AE3151 /* Home */,
 				96480F4F1F9DDB7900AE3151 /* Main */,
 			);
@@ -276,6 +335,7 @@
 		96480F531F9DDBC000AE3151 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				966ABE231F9F3CBA0075D46C /* MJExtension */,
 				96480F6F1F9DDC1900AE3151 /* HYTextView */,
 				96480F721F9DDC1900AE3151 /* IQKeyboardManager */,
 				96480F551F9DDC1900AE3151 /* Masonry */,
@@ -415,8 +475,6 @@
 		96480FBC1F9DDC9100AE3151 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				96480F531F9DDBC000AE3151 /* Lib */,
-				96480F521F9DDBBE00AE3151 /* Category */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -433,6 +491,17 @@
 		96480FBE1F9DDCC000AE3151 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				966ABE0E1F9F14EB0075D46C /* BaseTestPaperTableView.h */,
+				966ABE0F1F9F14EB0075D46C /* BaseTestPaperTableView.m */,
+				966ABE141F9F1E710075D46C /* EsayQuestionTableView.h */,
+				966ABE151F9F1E710075D46C /* EsayQuestionTableView.m */,
+				966ABE171F9F21860075D46C /* MultiSelectionTableView.h */,
+				966ABE181F9F21860075D46C /* MultiSelectionTableView.m */,
+				966ABE1F1F9F2D680075D46C /* SingleSelectionTableView.h */,
+				966ABE201F9F2D680075D46C /* SingleSelectionTableView.m */,
+				966ABE1A1F9F22C50075D46C /* SingleSelectCell.h */,
+				966ABE1B1F9F22C50075D46C /* SingleSelectCell.m */,
+				966ABE1C1F9F22C50075D46C /* SingleSelectCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -440,8 +509,40 @@
 		96480FBF1F9DDCC300AE3151 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				966ABDE41F9EE1E20075D46C /* CourseExamTopicModel.h */,
+				966ABDE51F9EE1E20075D46C /* CourseExamTopicModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		966ABE231F9F3CBA0075D46C /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				966ABE241F9F3CBA0075D46C /* MJArgument.h */,
+				966ABE251F9F3CBA0075D46C /* MJArgument.m */,
+				966ABE261F9F3CBA0075D46C /* MJConst.h */,
+				966ABE271F9F3CBA0075D46C /* MJConst.m */,
+				966ABE281F9F3CBA0075D46C /* MJExtension.h */,
+				966ABE291F9F3CBA0075D46C /* MJFoundation.h */,
+				966ABE2A1F9F3CBA0075D46C /* MJFoundation.m */,
+				966ABE2B1F9F3CBA0075D46C /* MJIvar.h */,
+				966ABE2C1F9F3CBA0075D46C /* MJIvar.m */,
+				966ABE2D1F9F3CBA0075D46C /* MJMember.h */,
+				966ABE2E1F9F3CBA0075D46C /* MJMember.m */,
+				966ABE2F1F9F3CBA0075D46C /* MJMethod.h */,
+				966ABE301F9F3CBA0075D46C /* MJMethod.m */,
+				966ABE311F9F3CBA0075D46C /* MJType.h */,
+				966ABE321F9F3CBA0075D46C /* MJType.m */,
+				966ABE331F9F3CBA0075D46C /* MJTypeEncoding.h */,
+				966ABE341F9F3CBA0075D46C /* MJTypeEncoding.m */,
+				966ABE351F9F3CBA0075D46C /* NSObject+MJCoding.h */,
+				966ABE361F9F3CBA0075D46C /* NSObject+MJCoding.m */,
+				966ABE371F9F3CBA0075D46C /* NSObject+MJKeyValue.h */,
+				966ABE381F9F3CBA0075D46C /* NSObject+MJKeyValue.m */,
+				966ABE391F9F3CBA0075D46C /* NSObject+MJMember.h */,
+				966ABE3A1F9F3CBA0075D46C /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -556,6 +657,8 @@
 				96480F271F9DDB1100AE3151 /* Assets.xcassets in Resources */,
 				96480FB31F9DDC1900AE3151 /* IQKeyboardManager.bundle in Resources */,
 				96480F221F9DDB1000AE3151 /* Main.storyboard in Resources */,
+				96480FC51F9DE02F00AE3151 /* testData.plist in Resources */,
+				966ABE1E1F9F22C50075D46C /* SingleSelectCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,32 +684,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				96480FA41F9DDC1900AE3151 /* HYTextView.m in Sources */,
+				966ABE411F9F3CBA0075D46C /* MJType.m in Sources */,
+				966ABE211F9F2D680075D46C /* SingleSelectionTableView.m in Sources */,
 				96480FAD1F9DDC1900AE3151 /* IQTextView.m in Sources */,
 				96480FBB1F9DDC4000AE3151 /* UIAlertView+Blocks.m in Sources */,
 				96480F9C1F9DDC1900AE3151 /* MASConstraintMaker.m in Sources */,
+				966ABE451F9F3CBA0075D46C /* NSObject+MJMember.m in Sources */,
 				96480F251F9DDB1100AE3151 /* SLLTestPaper________.xcdatamodeld in Sources */,
+				966ABE3D1F9F3CBA0075D46C /* MJFoundation.m in Sources */,
 				96480F1F1F9DDB1000AE3151 /* ViewController.m in Sources */,
 				96480FAB1F9DDC1900AE3151 /* IQKeyboardManager.m in Sources */,
 				96480FAE1F9DDC1900AE3151 /* IQBarButtonItem.m in Sources */,
 				96480FAC1F9DDC1900AE3151 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				966ABE101F9F14EB0075D46C /* BaseTestPaperTableView.m in Sources */,
 				96480FBA1F9DDC4000AE3151 /* UIView+YYAdd.m in Sources */,
 				96480FAF1F9DDC1900AE3151 /* IQPreviousNextView.m in Sources */,
 				96480FC31F9DDD9D00AE3151 /* TestPaperViewController.m in Sources */,
+				966ABE441F9F3CBA0075D46C /* NSObject+MJKeyValue.m in Sources */,
 				96480F9B1F9DDC1900AE3151 /* MASConstraint.m in Sources */,
 				96480FA81F9DDC1900AE3151 /* IQUIView+Hierarchy.m in Sources */,
 				96480FA91F9DDC1900AE3151 /* IQUIViewController+Additions.m in Sources */,
 				96480FA31F9DDC1900AE3151 /* ViewController+MASAdditions.m in Sources */,
+				966ABE191F9F21860075D46C /* MultiSelectionTableView.m in Sources */,
+				966ABDE61F9EE1E20075D46C /* CourseExamTopicModel.m in Sources */,
 				96480FB01F9DDC1900AE3151 /* IQTitleBarButtonItem.m in Sources */,
+				966ABE421F9F3CBA0075D46C /* MJTypeEncoding.m in Sources */,
 				96480FA71F9DDC1900AE3151 /* IQUITextFieldView+Additions.m in Sources */,
+				966ABE3B1F9F3CBA0075D46C /* MJArgument.m in Sources */,
+				966ABE1D1F9F22C50075D46C /* SingleSelectCell.m in Sources */,
 				96480FAA1F9DDC1900AE3151 /* IQUIWindow+Hierarchy.m in Sources */,
 				96480F9D1F9DDC1900AE3151 /* MASLayoutConstraint.m in Sources */,
 				96480FB21F9DDC1900AE3151 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				96480FA01F9DDC1900AE3151 /* NSArray+MASAdditions.m in Sources */,
+				966ABE401F9F3CBA0075D46C /* MJMethod.m in Sources */,
 				96480FA51F9DDC1900AE3151 /* IQNSArray+Sort.m in Sources */,
+				966ABE3E1F9F3CBA0075D46C /* MJIvar.m in Sources */,
 				96480F9F1F9DDC1900AE3151 /* MASViewConstraint.m in Sources */,
 				96480F9E1F9DDC1900AE3151 /* MASViewAttribute.m in Sources */,
+				966ABE161F9F1E710075D46C /* EsayQuestionTableView.m in Sources */,
+				966ABE431F9F3CBA0075D46C /* NSObject+MJCoding.m in Sources */,
 				96480FA21F9DDC1900AE3151 /* View+MASAdditions.m in Sources */,
 				96480F2D1F9DDB1100AE3151 /* main.m in Sources */,
+				966ABE3C1F9F3CBA0075D46C /* MJConst.m in Sources */,
+				966ABE3F1F9F3CBA0075D46C /* MJMember.m in Sources */,
 				96480FB11F9DDC1900AE3151 /* IQToolbar.m in Sources */,
 				96480F1C1F9DDB1000AE3151 /* AppDelegate.m in Sources */,
 				96480FA61F9DDC1900AE3151 /* IQUIScrollView+Additions.m in Sources */,
@@ -777,6 +897,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPA8ZFWJMP;
 				INFOPLIST_FILE = "SLLTestPaper(选择判断简答)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sll.SLLTestPaper--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -791,6 +912,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPA8ZFWJMP;
 				INFOPLIST_FILE = "SLLTestPaper(选择判断简答)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sll.SLLTestPaper--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";

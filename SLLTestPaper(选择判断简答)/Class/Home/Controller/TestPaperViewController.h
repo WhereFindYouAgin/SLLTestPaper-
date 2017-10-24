@@ -10,4 +10,12 @@
 
 @interface TestPaperViewController : UIViewController
 
+@property (nonatomic, assign) NSInteger CourseExamId;
+
+@property (nonatomic, assign) NSInteger defautIndex;
+
+@property (nonatomic, assign) NSInteger type;//0:未做   1、做过了
+
+@property (nonatomic,strong) NSMutableArray *dataSource;
+
 @end

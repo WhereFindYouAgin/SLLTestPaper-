@@ -33,7 +33,7 @@
 - (void)beginTest:(UIButton *)btn {
     
     TestPaperViewController *testPaperVc = [[TestPaperViewController alloc] init];
-    
+    testPaperVc.type = 0;
     [self.navigationController pushViewController:testPaperVc animated:YES];
     
 }
