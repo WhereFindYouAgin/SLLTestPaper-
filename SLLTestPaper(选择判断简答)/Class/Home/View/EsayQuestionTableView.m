@@ -66,7 +66,26 @@
     
     return cell;
 }
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return 200.0f;
+}
 
+
+- (void)setTempAnswer:(NSString *)tempAnswer{
+    if (tempAnswer.length == 0)
+        return;
+    
+    self.uAnswer = tempAnswer;
+    
+    [self reloadData];
+}
+
+-(NSDictionary *)answer{
+    if (self.textView.text.length>0) return  @{@"exerId":@(self.model.Id),@"answer":self.textView.text};
+    return @{@"exerId":@(self.model.Id),@"answer":@""};
+    
+}
 
 
 @end

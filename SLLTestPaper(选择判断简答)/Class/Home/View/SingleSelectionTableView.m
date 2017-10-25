@@ -62,10 +62,8 @@
             }else{
                 cell.contentLb.textColor = [UIColor darkGrayColor];
             }
-            
         }
         cell.btn.selected = YES;
-        
     }else{
         cell.btn.selected = NO;
     }

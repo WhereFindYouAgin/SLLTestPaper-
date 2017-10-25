@@ -125,7 +125,7 @@
         UILabel *scoreLb = [[UILabel alloc] initWithFrame:CGRectMake(10, messageLb.bottom + 10, footView.width-20, 0)];
         scoreLb.textColor = [UIColor darkGrayColor];
         UITextView *remarkLb = nil;
-        if (!hasFooter) {
+        if (!hasFoot) {
             scoreLb.text = @"";
             [scoreLb sizeToFit];
         }else{
